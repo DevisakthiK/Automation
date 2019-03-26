@@ -1,0 +1,22 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel test -d dist",
+    "test": "node ./node_modules/webdriverio/bin/wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "wdio-cucumber-framework": "^2.2.8",
+    "webdriverio-cucumber-js": "^2.0.0"
+  }
+}
